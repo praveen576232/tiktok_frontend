@@ -1,0 +1,25 @@
+.videosidebar{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 65px;
+    padding-bottom: 20px;
+}
+.videosidebar_icon_text{
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.like-effect{
+    color: red;
+    animation: likeEffect 1s;
+}
+
+@keyframes likeEffect{
+    from{
+        transform: scale(1.8);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}

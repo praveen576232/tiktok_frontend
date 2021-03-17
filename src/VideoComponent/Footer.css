@@ -1,0 +1,43 @@
+
+.footer_left{
+    position: absolute;
+    color:white;
+   bottom: 30px;
+    left: 10px;
+    flex: 1;
+    padding: 10px;
+}
+.footer_icon{
+   
+   display: flex;
+    align-items: center;
+    text-align: center;
+   margin-top: 20px;
+
+}
+.footer_icon > .ticker{
+  flex:1;
+    height: fit-content;
+    margin-left: 5px;
+}
+.footer_spin_disk{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    bottom: 30px;
+    height: 38px;
+    filter: invert(1);
+    object-fit: contain;
+    animation: spindisk infinite 2s linear;
+}
+
+@keyframes spindisk {
+    from{
+        transform: rotate(0deg) ;
+       
+    }
+    to{
+        transform:rotate(360deg);
+      
+    }
+}
